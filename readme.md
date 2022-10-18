@@ -1,14 +1,13 @@
-# Web API Client: Part 1 - display products
+# Web API SvelteKit Client: Part 1 - display products
 
 Enda Lee 2022
 
 ### Quick Start
 
-1. Make sure the `Server API` app is running on http://localhost:5001
-2. Download the start site from this repository.
-3. Open in VS Code (separate to the server API instance).
-4. In a terminal run `npm install`.
-5. Start the application using `npm run start`.
+1. Download the start site from this repository.
+2. Open in VS Code.
+3. In a terminal run `npm install`.
+4. Start the application using `npm run dev`.
 
 
 
@@ -82,13 +81,13 @@ npm install @supabase/supabase-js
 
    **`.env`** contains two variables:
 
-![env](D:\webapps\_SSWD_2022\Labs_pt\svelte_clients\2022.FT.SSWD.5.1.product_api_client\media\env.png)
+![env](./media/env.png)
 
 
 
 These values are specific to the Supabase product database set up previosly, and can be found in your database dashboard:
 
-![supabase_api_settings](D:\webapps\_SSWD_2022\Labs_pt\svelte_clients\2022.FT.SSWD.5.1.product_api_client\media\supabase_api_settings.png)
+![supabase_api_settings](./media/supabase_api_settings.png)
 
 
 
@@ -96,7 +95,7 @@ These values are specific to the Supabase product database set up previosly, and
 
    Start by adding the file **`supabase.js`** in  **`src\lib`**. If the **`lib`** folder does not exist then create it first.
 
-   ![supabase.js](D:\webapps\_SSWD_2022\Labs_pt\svelte_clients\2022.FT.SSWD.5.1.product_api_client\media\supabase.js.png)
+   ![supabase.js](./media/supabase.js.png)
 
 The purpose of this script is to create a Supabase client instance based on your database URL and access key. 
 
