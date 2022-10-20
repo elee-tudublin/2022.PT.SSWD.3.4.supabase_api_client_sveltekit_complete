@@ -77,7 +77,7 @@ npm install @supabase/supabase-js
 
 2. Set **environment variables** in **`.env`**
 
-   Create this file in the root of your application or make a copy of **`.env.example`** from the start project (this repository), renaming it to **`.env`**.
+   Create this file in the root of your application or make a copy of **`.env.example`** from the start project (this repository) and rename it to **`.env`**.
 
    **`.env`** contains two variables:
 
